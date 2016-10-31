@@ -1,5 +1,5 @@
 #Tweet Replicator
-TW is an LSTM based recurrent neural network that learn from the tweets (and linked articles) of a tweeter user to emulate the user tweets
+Tweet Replicator is an LSTM based recurrent neural network that learn from the tweets (and linked articles) of a tweeter user to emulate the user tweets
 
 ##How to 
 1. edit tweetMeta.py
@@ -10,7 +10,9 @@ TW is an LSTM based recurrent neural network that learn from the tweets (and lin
 
 To compare different parametrization : ``` tensorboard --logdir='logs/' ```
 
-6. ```python run_model.py```
+To generate some random tweet:
+
+```python run_model.py```
 
 ##Dependencies
 *   [Tensorflow](https://www.tensorflow.org/)

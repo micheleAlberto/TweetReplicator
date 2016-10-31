@@ -2,14 +2,14 @@
 TW is an LSTM based recurrent neural network that learn from the tweets (and linked articles) of a tweeter user to emulate the user tweets
 
 ##How to 
-1. configure tweetMeta.py
+1. edit tweetMeta.py
 2. ```python tweet_dumper.py```
-3. configure trainMeta.py
+3. tweak trainMeta.py
 4. ```python make_dataset.py```
-5. ```
-python train.py
+5. ```python train.py ```
 
-tensorboard --logdir='logs/' ```
+To compare different parametrization : ``` tensorboard --logdir='logs/' ```
+
 6. ```python run_model.py```
 
 ##Dependencies

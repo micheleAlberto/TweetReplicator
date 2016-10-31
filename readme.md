@@ -6,8 +6,10 @@ TW is an LSTM based recurrent neural network that learn from the tweets (and lin
 2. ```python tweet_dumper.py```
 3. configure trainMeta.py
 4. ```python make_dataset.py```
-5. ```python train.py```
-5b. ``` tensorboard --logdir='logs/' ```
+5. ```
+python train.py
+
+tensorboard --logdir='logs/' ```
 6. ```python run_model.py```
 
 ##Dependencies
